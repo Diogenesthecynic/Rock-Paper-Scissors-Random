@@ -22,7 +22,6 @@ body {
     font-family: 'Berkshire Swash', cursive;
 }
 
-
 #display {
     display: table-cell;
     vertical-align: middle;
@@ -32,9 +31,17 @@ body {
     text-align: center;
 }
 
+#display div {
+    transition: 350ms color;
+}
+
 #action {
     cursor: pointer;
     font-size: 1.4em;
+}
+
+#action:hover {
+    color: #ddffcc;
 }
 
 #small {
@@ -425,6 +432,7 @@ body {
 }
 
 .active {
+    color: #ff7777;
     -webkit-animation-name: shaking;
     -moz-animation-name: shaking;
     -o-animation-name: shaking;
