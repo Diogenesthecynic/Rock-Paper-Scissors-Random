@@ -28,7 +28,7 @@ body {
     vertical-align: middle;
     width: 100%;
     color: white;
-    text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 3px black;
+    text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black;
     text-align: center;
 }
 
@@ -47,6 +47,16 @@ body {
 
 #commands div {
     opacity: .49;
+}
+
+
+/* Font */
+
+@font-face {
+  font-family: 'Berkshire Swash';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Berkshire Swash'), local('BerkshireSwash-Regular'), url('BerkshireSwash-Regular.ttf') format('woff2');
 }
 
 

@@ -84,7 +84,7 @@ $(document).ready((function (schema) {
             .click(clickGo);
 
         elements.small
-            .css("opacity", 1)
+            .css("opacity", "")
             .text("Go again?")
             .click(clickGo);
     }
